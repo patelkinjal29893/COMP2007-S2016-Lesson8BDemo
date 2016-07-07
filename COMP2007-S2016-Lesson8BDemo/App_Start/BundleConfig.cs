@@ -25,6 +25,7 @@ namespace COMP2007_S2016_Lesson8BDemo
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/font-awesome.css",
                       "~/Content/site.css"));
         }
     }
