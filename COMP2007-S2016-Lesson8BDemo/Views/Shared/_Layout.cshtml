@@ -20,10 +20,11 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Students", "Index", "Students")</li>
-                    <li>@Html.ActionLink("Courses", "Index", "Courses")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li><a href="@Url.Action("Index","Home")"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li><a href="@Url.Action("Index","Students")"><i class="fa fa-leanpub fa-lg"></i> Students</a></li>
+                    <li><a href="@Url.Action("Index","Courses")"><i class="fa fa-book fa-lg"></i> Courses</a></li>
+                    <li><a href="@Url.Action("Index","Departments")"><i class="fa fa-puzzle-piece fa-lg"></i> Departments</a></li>  
+                    <li><a href="@Url.Action("Index","Enrollments")"><i class="fa fa-bars fa-lg"></i> Enrollments</a></li>                      
                 </ul>
             </div>
         </div>
